@@ -3,7 +3,7 @@
 
 This is my project for week 2 at MOringa School, Kenya where I was to create a landing page for a the restaurant mentioned above.
 
-[Here is a link to my website.](https://github.com/davadeola/davadeola.github.io)
+[Here is a link the my website.](https://davadeola.github.io/anita-s-kitchen/)
    
    ## Author name
    My name is David Adeola
