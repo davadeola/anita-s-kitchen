@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <title>Anita's Restaurant</title>
 
@@ -142,23 +142,106 @@
     <div class="row ">
       <div class=" selection">
 
+         <!--carousel top buttons-->
+    <div class="well">
+      <div class="row">
+        <div class="col col-md-3 col-lg-3 btn-car" id="fast">
+          <p>Fast Food</p>
+        </div>
+        <div class="col col-md-3 col-lg-3 btn-car">
+          <p>Drinks</p>
+        </div>
+        <div class="col col-md-3 col-lg-3 btn-car">Chicken</div>
+        <div class="col col-md-3 col-lg-3 btn-car" id="rice">Rice</div>
+      </div>
 
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <!-- First Carousel items -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="row">
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenBurger.jpg" alt="Image" class="img-responsive">Chicken Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/beefBurger.jpg" alt="Image" class="img-responsive">Beef Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenPizza.jpg" alt="Image" class="img-responsive">Chicken Pizza</a>
+              </div>
+            </div>
+            <!--/row-->
+          </div>
+          <!--Second carousel item-->
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenBurger.jpg" alt="Image" class="img-responsive">Chicken Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/beefBurger.jpg" alt="Image" class="img-responsive">Beef Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenPizza.jpg" alt="Image" class="img-responsive">Chicken Pizza</a>
+              </div>
+            </div>
+
+          </div>
+          <!--Third carousel item-->
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenBurger.jpg" alt="Image" class="img-responsive">Chicken Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/beefBurger.jpg" alt="Image" class="img-responsive">Beer Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenPizza.jpg" alt="Image" class="img-responsive">Chicken Burger</a>
+              </div>
+            </div>
+
+          </div>
+          <!--Fourth carousel item-->
+
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenBurger.jpg" alt="Image" class="img-responsive">Chicken Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#x" class="thumbnail"><img src="assets/fastfood/beefBurger.jpg" alt="Image" class="img-responsive">Beef Burger</a>
+              </div>
+              <div class="col-md-4 slide-content">
+                <a href="#" class="thumbnail"><img src="assets/fastfood/chickenPizza.jpg" alt="Image" class="img-responsive">Chicken Pizza</a>
+              </div>
+            </div>
+
+          </div>
+          <!--items End-->
+        </div>
+        <!--/carousel buttons--><a class="left carousel-control" href="#myCarousel" data-slide="prev" style="color:#F15B29;font-size:50px;padding:100px 100px 0 0" ;background:rgba(255, 255, 255,0.1);width:10px>‹</a>
+
+        <a class="right carousel-control" href="#myCarousel" data-slide="next" style="color:#F15B29;font-size:50px;padding:100px 0 0 100px;background:rgba(255, 255, 255,0.1);width:10px">›</a>
+      </div>
+      <!--End of myCarousel-->
+    </div>
 
       </div>
 
     </div>
   </div>
-</div>
-
-<div class="container-fluid newrow ">
-  <div class="row">
-    <div class="col-md-12 ">
 
 
-      <div class=" col-md-12 card " >
-        <div class="customers">
+  <div class="container-fluid newrow ">
+    <div class="customers">
+      <div class="card">
 
-          <div class="col-md-8">
+        
+        <div class="col-md-7">
             <h3 style="color: #f15a29">Our happy customers</h3>
             <h4 id="h1text">Sasho Aroma</h4>
             <p id="p1text">
@@ -175,7 +258,7 @@
             <p id="p3text">
 
               The food is amazing and awesome. t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-              
+
             </p>
             <img src="img/ws.png">
             <img src="assets/customers/p1.png" id="p1" class="clickable">
@@ -183,38 +266,46 @@
             <img src="assets/customers/p3.png" id="p3" class="clickable">
             <img src="img/next.png">
           </div>
-          
-          <div class="col-md-4">
+
+          <div class="col-md-5">
             <h3 style="color: #f15a29">About Menu</h3>
             <p>We are a menu little team of seven people. t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-            
-          </div>
 
+          </div>
         </div>
-      </div>
+      
+
+
+
 
     </div>
 
   </div>
 
-</div>
 
 
 
 
+  <div class="container-fluid newrow ">
+    <div class="row ">
+      <div class="contact">
+        <div class="col-md-12 ">      
 
-<div class="container-fluid newrow ">
-  <div class="row ">
-    <div class="contact">
-      <div class="col-md-12 ">      
+          <h2>Get our daily food items delivered to your email</h2>
+        </div>
+        <div class="col-md-6">
+          <form  action="index.html" method="post">
+            <div class="form-group ">
+              <input  type="email" class="form-control input-lg" name="" value="your email" placeholder="your email">
 
-        <h2>Get our daily food items delivered to your email</h2>
-        <form class="form-inline" action="index.html" method="post">
-          <div class="form-group">
-            <input  type="email" class="form-control input-lg" name="" value="your email" placeholder="your email">
-          </div>
+            </div>
+
+          </form>
+        </div>
+        <div class="col-md-4">
           <button type="button" name="button" class="btn btn-lg">Subscribe</button>
-        </form>
+        </div>
+        
       </div>
     </div>
   </div>
@@ -242,12 +333,12 @@
           <div class="footcontent">
 
             <div class="ftrest"><img src="assets/footerlogos/logo_white.png"></div>
-             <div class="ftrest"> <h1>MENU</h1></div>
+            <div class="ftrest"> <h1>MENU</h1></div>
 
 
-              <div class="ftrest"><h4>Thats What We Are</h4></div>
+            <div class="ftrest"><h4>Thats What We Are</h4></div>
 
-              <div>
+            <div>
               <img src="assets/footerlogos/facebook.png" class="fticons">
               <img src="assets/footerlogos/twitter.png" class="fticons">
               <img src="assets/footerlogos/pinterest.png" class="fticons">
