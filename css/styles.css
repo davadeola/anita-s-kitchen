@@ -10,7 +10,8 @@ body{
 .header{
   width:100%;
   background-image: url("../assets/backgrounds/landing.jpg");
-  height: 90%;
+  height: 620px;
+
   line-height:60px;
 }
 
@@ -31,6 +32,11 @@ body{
 
 .lubo{
   padding: 1.3em;
+  box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.tabledimg{
+  width: 50%;
 }
 .newrow{
   margin-top: 10em;
@@ -179,12 +185,19 @@ a{color:#336699;}
   width:100%;
   background-image: url("../assets/backgrounds/foodsBg.jpg");
   height:30em;
+
+
 }
 
 .customers{
-  width:100%;
+  width:70em;
   background-color: white;
   height:20em;
+  margin-left: 12%;
+  
+  padding-right: 0;
+  padding-left: 0;
+
   
 }
 
@@ -203,26 +216,28 @@ a{color:#336699;}
 
 }
 
-.contact form,
-.contact h2{
 
-}
 
 .contact form input{
-
+  margin-left: 17em;
   background-color: inherit;
   line-height: 4.5em;
   color: white;
-  width:  500px;
+  width:  25em;
 
 
 
 }
 
 
-.contact form{
-  margin-left: 23%;
 
+div.card {
+    box-shadow: 10px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    height: 20em;
+    padding-right: O;
+    width: 100%;
+    
 
 }
 
@@ -232,6 +247,7 @@ a{color:#336699;}
   text-align: center;
   margin-left: 20%;
   margin-right: 25%;
+  padding-top: 1em;
 }
 
 
@@ -252,10 +268,11 @@ a{color:#336699;}
   align-items: center;
 }
 
-.contact form button{
+.contact  button{
   background-color: #F15A29;
   color: white;
   border: 0;
+  margin-left: 5em;
 }
 
 .tab-content h4{
@@ -273,8 +290,23 @@ a{color:#336699;}
   padding-top: 2%;
   background-color: white;
   margin-top: 3%;
-  padding-right: 5%;
-  padding-left: 5%;
+  margin-left: 10%;
+  
+  
+}
+
+
+.ds1{
+  padding-top: 10%;
+  background-color: white;
+  margin-top: 3%;
+  height:  77.9%;
+  cursor: pointer;
+
+}
+
+#prev .ds1{
+  margin-left: 4%;
 }
 .nav li a {
   background-color: #edeff2;
@@ -312,8 +344,17 @@ a{color:#336699;}
 
 .ftrest{
   padding-left: 20px;
+  display: inline-block;
 }
 
+.ftrest img{
+  vertical-align: middle;
+}
+
+.ftrest h1{
+  padding-top: 5%;
+  margin-bottom: 10%;
+}
 .clickable{
   cursor: pointer;
 }
